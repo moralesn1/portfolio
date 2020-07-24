@@ -1,9 +1,9 @@
-import rubyTerminalProjectImg from "./../assets/portfolio_images/rubyterminal.png";
-import zenGardenProjectImg from "./../assets/portfolio_images/zengardencss.png";
-import portfolioImg from "./../assets/portfolio_images/portfolio.png";
-import mysteryBoxMarketImg from "./../assets/portfolio_images/mysteryboxmarket.png";
-import dogTrainingProjectImg from "./../assets/portfolio_images/dogtraining.png";
-import animalCrossingProjectImg from "./../assets/portfolio_images/animalcrossing.png";
+import rubyTerminalProjectImg from "../assets/portfolio_images/project_pictures/rubyterminal.png";
+import zenGardenProjectImg from "./../assets/portfolio_images/project_pictures/zengardencss.png";
+import portfolioImg from "./../assets/portfolio_images/project_pictures/portfolio.png";
+import mysteryBoxMarketImg from "./../assets/portfolio_images/project_pictures/mysteryboxmarket.png";
+import dogTrainingProjectImg from "./../assets/portfolio_images/project_pictures/dogtraining.png";
+import animalCrossingProjectImg from "./../assets/portfolio_images/project_pictures/animalcrossing.png";
 
 const projects = [
   {
