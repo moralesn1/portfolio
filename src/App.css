@@ -1,6 +1,28 @@
 /* img.card-img-top {
   width: 250px;
 } */
+
+/* Landing Page */
+div.landing-page-container.container {
+  height: 100vh;
+}
+
+img.hero-image {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+div.landing-page-description-container {
+  text-align: center;
+}
+
+/* Projects Section */
 div.card {
   height: 480px;
   margin-top: 2em;

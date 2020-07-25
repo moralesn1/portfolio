@@ -1,7 +1,8 @@
 import React from "react";
-import ProjectCard from "./ProjectCard";
+import { Container, Row } from "react-bootstrap";
 
-import { Container, Row, Button } from "react-bootstrap";
+import LandingPageComponent from "./LandingPageComponent";
+import ProjectCard from "./ProjectCard";
 
 import "../App.css";
 
@@ -12,6 +13,7 @@ function App() {
   function projectsCard(item, index) {
     return (
       <ProjectCard
+        key={index}
         image={item.image}
         title={item.title}
         description={item.description}
@@ -21,10 +23,10 @@ function App() {
   return (
     <>
       <Container>
-        <div>
-          <h1>yo</h1>
-        </div>
-        <Row className="project-row">{projectData.map(projectsCard)}</Row>
+        <LandingPageComponent />
+        <Row className="project-row">
+          {projectData.map(projectsCard).reverse()}
+        </Row>
       </Container>
     </>
   );
