@@ -24,9 +24,10 @@ const projects = [
   },
   {
     title: "Portfolio",
-    techStack: "Javascript, React, Heroku, HTML & CSS",
+    techStack: "Javascript, React, Netlify, HTML & CSS",
     image: portfolioImg,
-    description: "",
+    description:
+      "A portfolio to showcase my current abilities, my past projects and my minimalist design approach.",
     repo: "https://github.com/moralesn1/portfolio",
   },
   {
@@ -35,23 +36,26 @@ const projects = [
     image: mysteryBoxMarketImg,
     description:
       "A two sided market place where users buy and sell 'Mystery Boxes'.",
-    repo: "",
+    repo: "https://github.com/Joshua-Tu/rails_team_project",
+    link: "https://mystery-box-market.herokuapp.com/",
   },
   {
     title: "Sydney Dog Training",
-    techStack: "MongoDB, Express, React, Node, AWS, Heroku, HTML & CSS",
+    techStack: "MERN, HTML, CSS, AWS, Heroku",
     image: dogTrainingProjectImg,
     description:
       "A website providing information on dog training services and information utilising direct contact from potential client to customer.",
     repo: "https://github.com/keshibat/dogtrain_react",
+    link: "http://react-keep-static.s3-website-ap-southeast-2.amazonaws.com/",
   },
   {
-    title: "Animal Crossing Inventory Tracker",
+    title: "AC Inventory Manager",
     techStack: "Javascript, React, Netlify, HTML & CSS",
     image: animalCrossingProjectImg,
     description:
       "An app designed to maximise profit when traveling to different Islands in Animal Crossing. Utilising an API to fetch all the data, utilising the new React Hooks and ES6.",
     repo: "https://github.com/moralesn1/AnimalCrossingTracker",
+    link: "https://animalcrossingtracker.netlify.app/",
   },
 ];
 

@@ -1,4 +1,4 @@
-import htmlIcon from "./../assets/portfolio_images/language_pictures/htnk-colour-icon.ico";
+import htmlIcon from "./../assets/portfolio_images/language_pictures/html-colour-icon.ico";
 import cssIcon from "./../assets/portfolio_images/language_pictures/css-colour-icon.svg";
 import javascriptIcon from "./../assets/portfolio_images/language_pictures/JavaScript-logo.png";
 import typescriptIcon from "./../assets/portfolio_images/language_pictures/tslogo.png";

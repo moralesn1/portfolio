@@ -1,3 +1,4 @@
+import awsLogo from "../assets/portfolio_images/general_pictures/aws-logo1.png";
 import gitLogo from "../assets/portfolio_images/general_pictures/git-colour-icon.png";
 import githubLogo from "../assets/portfolio_images/general_pictures/githubicon.png";
 import postgresqlIcon from "../assets/portfolio_images/general_pictures/postgresql-colour-icon.png";
@@ -34,6 +35,10 @@ const generalSkills = [
   {
     title: "Netlify",
     image: netlifyLogo,
+  },
+  {
+    title: "AWS",
+    image: awsLogo,
   },
 ];
 

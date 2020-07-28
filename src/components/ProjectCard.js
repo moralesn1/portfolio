@@ -4,12 +4,26 @@ import { Card, Button } from "react-bootstrap";
 export default function ProjectCard(props) {
   return (
     <>
-      <Card style={{ width: "18rem" }}>
+      <Card className="project-cards" style={{ width: "18rem" }}>
         <Card.Img variant="top" src={props.image} />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
+          <Card.Subtitle>{props.tstack}</Card.Subtitle>
           <Card.Text>{props.description}</Card.Text>
-          <Button variant="primary">Repo</Button>
+          <Button variant="light">
+            {" "}
+            <a href={props.repo} target="_blank" rel="noopener noreferrer">
+              Repo
+            </a>
+          </Button>
+          {props.link ? (
+            <Button variant="light">
+              {" "}
+              <a href={props.link} target="_blank" rel="noopener noreferrer">
+                Vist the App
+              </a>
+            </Button>
+          ) : null}
         </Card.Body>
       </Card>
     </>
