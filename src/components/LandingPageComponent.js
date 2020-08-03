@@ -9,11 +9,15 @@ export default function LandingPageComponent() {
           <img className="hero-image" src={profilePicture} alt="Profile logo" />
         </div>
         <div className="landing-page-description-container">
-          <p>Hi there! I'm Nathaniel.</p>
-          <p>I'm a Full Stack Developer based in Sydney, Australia.</p>
           <p>
-            Developing and designing web applications and seeing them come to
-            life is my passion.
+            Hi there! I'm <b>Nathaniel</b>.
+          </p>
+          <p>
+            I'm a <b>Full Stack Developer</b> based in Sydney, Australia.
+          </p>
+          <p>
+            <b>Developing</b> and <b>designing</b> web applications and seeing
+            them come to life is my passion.
           </p>
           <p>
             If I'm not working you can usually find me at the gym, exploring

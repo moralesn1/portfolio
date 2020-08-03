@@ -1,5 +1,5 @@
 import linkedInIcon from "../assets/portfolio_images/socialmedia_pictures/linkedinicon.png";
-import githubIcon from "../assets/portfolio_images/socialmedia_pictures/github-octocat.png";
+import githubIcon from "../assets/portfolio_images/socialmedia_pictures/github-black.png";
 import twitterIcon from "../assets/portfolio_images/socialmedia_pictures/twittericon.png";
 import instagramIcon from "../assets/portfolio_images/socialmedia_pictures/instagramicon.png";
 

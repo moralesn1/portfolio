@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 export default function ProjectCard(props) {
   return (
@@ -10,19 +10,23 @@ export default function ProjectCard(props) {
           <Card.Title>{props.title}</Card.Title>
           <Card.Subtitle>{props.tstack}</Card.Subtitle>
           <Card.Text>{props.description}</Card.Text>
-          <Button variant="light">
-            {" "}
-            <a href={props.repo} target="_blank" rel="noopener noreferrer">
-              Repo
-            </a>
-          </Button>
+          <a
+            className="projectcard-anchor-link"
+            href={props.repo}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Repo
+          </a>
           {props.link ? (
-            <Button variant="light">
-              {" "}
-              <a href={props.link} target="_blank" rel="noopener noreferrer">
-                Vist the App
-              </a>
-            </Button>
+            <a
+              className="projectcard-anchor-link"
+              href={props.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Vist the App
+            </a>
           ) : null}
         </Card.Body>
       </Card>
