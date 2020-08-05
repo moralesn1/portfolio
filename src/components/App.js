@@ -45,32 +45,30 @@ function App() {
   }
 
   return (
-    <>
-      <Container>
-        <LandingPageComponent />
-        <SectionTitleComponents header="Projects" />
-        <Row className="project-row">
-          {projectData.map(projectsCard).reverse()}
-        </Row>
-        <SectionTitleComponents header="Skills" />
-        <Row className="project-row">
-          <SkillsComponent
-            header="Language Skills"
-            content={languageSkills.map(skillsCard)}
-          />
-          <SkillsComponent
-            header="Frameworks and Libraries"
-            content={frameworkSkills.map(skillsCard)}
-          />
-          <SkillsComponent
-            header="General Skills"
-            content={generalSkills.map(skillsCard)}
-          />
-        </Row>
-        <SectionTitleComponents />
-        <FooterComponent />
-      </Container>
-    </>
+    <Container>
+      <LandingPageComponent />
+      <SectionTitleComponents header="Projects" />
+      <Row className="project-row">
+        {projectData.map(projectsCard).reverse()}
+      </Row>
+      <SectionTitleComponents header="Skills" />
+      <Row className="project-row">
+        <SkillsComponent
+          header="Language Skills"
+          content={languageSkills.map(skillsCard)}
+        />
+        <SkillsComponent
+          header="Frameworks and Libraries"
+          content={frameworkSkills.map(skillsCard)}
+        />
+        <SkillsComponent
+          header="General Skills"
+          content={generalSkills.map(skillsCard)}
+        />
+      </Row>
+      <SectionTitleComponents />
+      <FooterComponent />
+    </Container>
   );
 }
 

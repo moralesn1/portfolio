@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Mukta:wght@300&display=swap");
 
+/* .dark-mode,
+html,
+.project-cards.card,
+.skills-cards.card {
+  background-color: #000000;
+  color: #ffffff;
+} */
+
 .container {
   width: fit-content;
 }
@@ -179,6 +187,8 @@ img.social-media-icon:hover {
 li.social-media-list {
   display: inline-block;
 }
+
+/* Media Queries */
 
 @media screen and (max-width: 320px) {
   img.hero-image {

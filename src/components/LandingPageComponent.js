@@ -1,7 +1,11 @@
 import React from "react";
 import profilePicture from "../assets/portfolio_images/profile-pic.png";
 
-export default function LandingPageComponent() {
+export default function LandingPageComponent(props) {
+  function handleClick() {
+    props.handleNightMode();
+  }
+
   return (
     <>
       <div className="landing-page-wrapper">
