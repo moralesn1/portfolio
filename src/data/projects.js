@@ -44,7 +44,7 @@ const projects = [
     techStack: "MERN, HTML, CSS, AWS, Heroku",
     image: dogTrainingProjectImg,
     description:
-      "A website providing information on dog training services and information utilising direct contact from potential client to customer.",
+      "A website providing information on dog training services and information to enable direct contact from potential clients to the business.",
     repo: "https://github.com/keshibat/dogtrain_react",
     link: "http://react-keep-static.s3-website-ap-southeast-2.amazonaws.com/",
   },
@@ -53,7 +53,7 @@ const projects = [
     techStack: "Javascript, React, Netlify, HTML & CSS",
     image: animalCrossingProjectImg,
     description:
-      "An app designed to maximise profit when traveling to different Islands in Animal Crossing. Utilising an API to fetch all the data, utilising the new React Hooks and ES6.",
+      "An app designed to maximise profit when traveling to different Islands in Animal Crossing. Utilising ES6, React Hooks and an API for all the data.",
     repo: "https://github.com/moralesn1/AnimalCrossingTracker",
     link: "https://animalcrossingtracker.netlify.app/",
   },
