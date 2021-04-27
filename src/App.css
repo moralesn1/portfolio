@@ -7,6 +7,7 @@
 /* Landing Page */
 div.landing-page-wrapper {
   height: 100vh;
+  padding-top: 70px;
 }
 
 img.hero-image {
@@ -33,7 +34,6 @@ div.landing-page-description-container {
 
 .links-component-wrapper {
   font-family: "Mukta", sans-serif;
-  margin-top: -80px;
   left: 0;
   padding-top: 20px;
   background: white;
