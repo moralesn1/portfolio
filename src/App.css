@@ -1,14 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Mukta:wght@300&display=swap");
-
-/* .dark-mode,
-html,
-.project-cards.card,
-.skills-cards.card {
-  background-color: #000000;
-  color: #ffffff;
-} */
-
 .container {
+  height: 100%;
   width: fit-content;
 }
 
@@ -33,9 +25,30 @@ img.hero-image {
 }
 
 div.landing-page-description-container {
+  margin-top: -30px;
   text-align: center;
   font-family: "Mukta", sans-serif;
   font-size: 18px;
+}
+
+.links-component-wrapper {
+  font-family: "Mukta", sans-serif;
+  margin-top: -80px;
+  left: 0;
+  padding-top: 20px;
+  background: white;
+  width: 100%;
+  z-index: 5;
+  position: fixed;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  border-bottom: 1px solid;
+}
+
+.links-component-wrapper a:hover, p:hover {
+  color: grey !important;
+  cursor: pointer;
 }
 /* Section Titles */
 h3.section-title-heading {
@@ -44,8 +57,7 @@ h3.section-title-heading {
   margin-bottom: 2em;
   border-top: solid;
   border-width: thin;
-  padding-bottom: 1em;
-  padding-top: 1.5em;
+  padding-top: 3.5em;
   font-family: "Barlow", sans-serif;
 }
 
@@ -165,6 +177,10 @@ h5.footer-credits {
   font-family: "Mukta", sans-serif;
 }
 
+.social-media-wrapper {
+  margin-top: 50px;
+}
+
 div.social-media-link {
   display: flex;
   justify-content: space-around;
@@ -213,6 +229,47 @@ li.social-media-list {
     margin-right: auto;
     border-style: solid;
     border-radius: 50%;
+  }
+  .links-component-wrapper {
+    font-family: "Mukta", sans-serif;
+    left: 0;
+    padding-top: 20px;
+    background: white;
+    width: 100%;
+    z-index: 5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    border-top: 1px solid;
+  }
+
+  .social-media-links {
+    margin-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .links-component-wrapper {
+    font-family: "Mukta", sans-serif;
+    left: 0;
+    padding-top: 20px;
+    background: white;
+    width: 100%;
+    z-index: 5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    border-top: 1px solid;
+  }
+
+  .social-media-links {
+    margin-bottom: 150px;
   }
 }
 

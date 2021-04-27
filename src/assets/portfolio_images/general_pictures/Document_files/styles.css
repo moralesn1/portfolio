@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+}
+
+.mario {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  box-shadow: 170px 70px rgb(253, 49, 49), 190px 70px rgb(253, 49, 49),
+    210px 70px rgb(253, 49, 49), 230px 70px rgb(253, 49, 49),
+    250px 70px rgb(253, 49, 49), 150px 90px rgb(253, 49, 49),
+    170px 90px rgb(253, 49, 49), 190px 90px rgb(253, 49, 49),
+    210px 90px rgb(253, 49, 49), 230px 90px rgb(253, 49, 49),
+    250px 90px rgb(253, 49, 49), 270px 90px rgb(253, 49, 49),
+    290px 90px rgb(253, 49, 49), 310px 90px rgb(253, 49, 49),
+    150px 110px rgb(139, 69, 69), 170px 110px rgb(139, 69, 69),
+    190px 110px rgb(139, 69, 69), 210px 110px rgb(255, 200, 137),
+    230px 110px rgb(255, 200, 137), 250px 110px rgb(139, 69, 69),
+    270px 110px rgb(255, 200, 137), 130px 130px rgb(139, 69, 69),
+    150px 130px rgb(255, 200, 137), 170px 130px rgb(139, 69, 69),
+    190px 130px rgb(255, 200, 137), 210px 130px rgb(255, 200, 137),
+    230px 130px rgb(255, 200, 137), 250px 130px rgb(139, 69, 69),
+    270px 130px rgb(255, 200, 137), 290px 130px rgb(255, 200, 137),
+    310px 130px rgb(255, 200, 137), 130px 150px rgb(139, 69, 69),
+    150px 150px rgb(255, 200, 137), 170px 150px rgb(139, 69, 69),
+    190px 150px rgb(139, 69, 69), 210px 150px rgb(255, 200, 137),
+    230px 150px rgb(255, 200, 137), 250px 150px rgb(255, 200, 137),
+    270px 150px rgb(139, 69, 69), 290px 150px rgb(255, 200, 137),
+    310px 150px rgb(255, 200, 137), 330px 150px rgb(255, 200, 137),
+    130px 170px rgb(139, 69, 69), 150px 170px rgb(139, 69, 69),
+    170px 170px rgb(255, 200, 137), 190px 170px rgb(255, 200, 137),
+    210px 170px rgb(255, 200, 137), 230px 170px rgb(255, 200, 137),
+    250px 170px rgb(139, 69, 69), 270px 170px rgb(139, 69, 69),
+    290px 170px rgb(139, 69, 69), 310px 170px rgb(139, 69, 69),
+    170px 190px rgb(255, 200, 137), 190px 190px rgb(255, 200, 137),
+    210px 190px rgb(255, 200, 137), 230px 190px rgb(255, 200, 137),
+    250px 190px rgb(255, 200, 137), 270px 190px rgb(255, 200, 137),
+    290px 190px rgb(255, 200, 137), 150px 210px rgb(139, 69, 69),
+    170px 210px rgb(139, 69, 69), 190px 210px rgb(253, 49, 49),
+    210px 210px rgb(139, 69, 69), 230px 210px rgb(139, 69, 69),
+    250px 210px rgb(139, 69, 69), 130px 230px rgb(139, 69, 69),
+    150px 230px rgb(139, 69, 69), 170px 230px rgb(139, 69, 69),
+    190px 230px rgb(253, 49, 49), 210px 230px rgb(139, 69, 69),
+    230px 230px rgb(139, 69, 69), 250px 230px rgb(253, 49, 49),
+    270px 230px rgb(139, 69, 69), 290px 230px rgb(139, 69, 69),
+    310px 230px rgb(139, 69, 69);
+}
