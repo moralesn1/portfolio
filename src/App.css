@@ -259,6 +259,10 @@ li.social-media-list {
     padding-top: 0;
   }
 
+  img.hero-image {
+    height: 200px;
+  }
+
   .links-component-wrapper {
     font-family: "Mukta", sans-serif;
     left: 0;
@@ -282,6 +286,11 @@ li.social-media-list {
 }
 
 @media screen and (max-width: 768px) {
+  .landing-page-wrapper {
+    height: 100vh;
+    padding-top: 20px;
+  }
+  
   div.skills-column.col {
     border-style: solid;
     flex-wrap: wrap;
@@ -301,3 +310,11 @@ li.social-media-list {
     margin-right: auto;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .landing-page-wrapper {
+    height: 100vh;
+    padding-top: 20px;
+  }
+}
+
