@@ -25,7 +25,7 @@ img.hero-image {
   box-shadow: 21px 21px 22px -12px rgba(0, 0, 0, 0.75);
 }
 
-div.landing-page-description-container {
+.landing-page-description-container {
   margin-top: -30px;
   text-align: center;
   font-family: "Mukta", sans-serif;
@@ -51,6 +51,7 @@ div.landing-page-description-container {
   cursor: pointer;
 }
 /* Section Titles */
+
 h3.section-title-heading {
   text-align: center;
   margin-top: 3em;
@@ -112,13 +113,7 @@ button.btn.btn-light {
 }
 
 /* Skills Section */
-div.skills-row.row {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 1em;
-  padding-right: 1em;
-  height: 100%;
-}
+
 
 div.skills-cards.card {
   height: 430px;
@@ -206,76 +201,28 @@ li.social-media-list {
 
 /* Media Queries */
 
-@media screen and (max-width: 320px) {
-  img.hero-image {
-    margin-top: 5em;
-    margin-bottom: 5em;
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-radius: 50%;
-  }
-}
 
-@media screen and (max-width: 400px) {
-  .landing-page-wrapper {
-    height: 100vh;
-    padding-top: 0;
+@media screen and (min-width: 410px) {
+  .landing-page-description-container {
+    padding-left: 30px;
+    padding-right: 30px;
   }
-
-  img.hero-image {
-    margin-top: 1.5em;
-    margin-bottom: 5em;
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-radius: 50%;
-  }
-  .links-component-wrapper {
-    font-family: "Mukta", sans-serif;
-    left: 0;
-    padding-top: 20px;
-    background: white;
-    width: 100%;
-    z-index: 5;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    border-top: 1px solid;
-  }
-
 }
 
 @media screen and (max-width: 500px) {
+
   .landing-page-wrapper {
     height: 100vh;
     padding-top: 0;
   }
 
   img.hero-image {
+    margin-top: 2em;
     height: 200px;
   }
 
   .links-component-wrapper {
-    font-family: "Mukta", sans-serif;
-    left: 0;
-    padding-top: 20px;
-    background: white;
-    width: 100%;
-    z-index: 5;
-    position: fixed;
     bottom: 0;
-    left: 0;
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
     border-top: 1px solid;
   }
   .social-media-link {
@@ -284,30 +231,17 @@ li.social-media-list {
   }
 
 }
+@media screen and (max-width: 600px) { 
+  img.hero-image {
+    height: 250px;
+  }
+}
 
 @media screen and (max-width: 768px) {
+  
   .landing-page-wrapper {
     height: 100vh;
     padding-top: 20px;
-  }
-  
-  div.skills-column.col {
-    border-style: solid;
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    width: 317px;
-  }
-
-  div.skills-row.row {
-    display: flex;
-    padding-left: 1em;
-    padding-right: 1em;
-    height: 100%;
-    width: 317px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
