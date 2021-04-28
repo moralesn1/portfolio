@@ -220,6 +220,11 @@ li.social-media-list {
 }
 
 @media screen and (max-width: 400px) {
+  div.landing-page-wrapper {
+    height: 100vh;
+    padding-top: 0;
+  }
+
   img.hero-image {
     margin-top: 1.5em;
     margin-bottom: 5em;
@@ -252,6 +257,11 @@ li.social-media-list {
 }
 
 @media screen and (max-width: 500px) {
+  div.landing-page-wrapper {
+    height: 100vh;
+    padding-top: 0;
+  }
+
   .links-component-wrapper {
     font-family: "Mukta", sans-serif;
     left: 0;
