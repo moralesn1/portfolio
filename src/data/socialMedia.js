@@ -4,26 +4,26 @@ import twitterIcon from "../assets/portfolio_images/socialmedia_pictures/twitter
 import instagramIcon from "../assets/portfolio_images/socialmedia_pictures/instagramicon.png";
 
 const socialMedia = [
-  {
-    title: "LinkedIn",
-    image: linkedInIcon,
-    link: "https://www.linkedin.com/in/nathaniel-morales-451727182/",
-  },
-  {
-    title: "Github",
-    image: githubIcon,
-    link: "https://github.com/moralesn1",
-  },
-  {
-    title: "Twitter",
-    image: twitterIcon,
-    link: "https://twitter.com/arraystartat0ne",
-  },
-  {
-    title: "Instagram",
-    image: instagramIcon,
-    link: "https://www.instagram.com/_nmorales/",
-  },
+	{
+		title: "LinkedIn",
+		image: linkedInIcon,
+		link: "https://www.linkedin.com/in/nathaniel-morales-451727182/",
+	},
+	{
+		title: "Github",
+		image: githubIcon,
+		link: "https://github.com/moralesn1",
+	},
+	{
+		title: "Twitter",
+		image: twitterIcon,
+		link: "https://twitter.com/arraystartat0ne",
+	},
+	{
+		title: "Instagram",
+		image: instagramIcon,
+		link: "https://www.instagram.com/emberthedobermann/",
+	},
 ];
 
 export default socialMedia;

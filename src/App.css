@@ -5,7 +5,7 @@
 }
 
 /* Landing Page */
-div.landing-page-wrapper {
+.landing-page-wrapper {
   height: 100vh;
   padding-top: 70px;
 }
@@ -181,7 +181,7 @@ h5.footer-credits {
   margin-top: 50px;
 }
 
-div.social-media-link {
+.social-media-link {
   display: flex;
   justify-content: space-around;
   margin-left: auto;
@@ -220,7 +220,7 @@ li.social-media-list {
 }
 
 @media screen and (max-width: 400px) {
-  div.landing-page-wrapper {
+  .landing-page-wrapper {
     height: 100vh;
     padding-top: 0;
   }
@@ -251,13 +251,10 @@ li.social-media-list {
     border-top: 1px solid;
   }
 
-  .social-media-links {
-    margin-bottom: 150px;
-  }
 }
 
 @media screen and (max-width: 500px) {
-  div.landing-page-wrapper {
+  .landing-page-wrapper {
     height: 100vh;
     padding-top: 0;
   }
@@ -277,10 +274,11 @@ li.social-media-list {
     justify-content: space-evenly;
     border-top: 1px solid;
   }
-
-  .social-media-links {
+  .social-media-link {
     margin-bottom: 150px;
+    width: 100%;
   }
+
 }
 
 @media screen and (max-width: 768px) {
