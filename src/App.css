@@ -51,7 +51,6 @@ img.hero-image {
   cursor: pointer;
 }
 /* Section Titles */
-
 h3.section-title-heading {
   text-align: center;
   margin-top: 3em;
@@ -231,13 +230,12 @@ li.social-media-list {
   }
 
 }
-@media screen and (max-width: 600px) { 
+
+@media screen and (max-width: 768px) {
+
   img.hero-image {
     height: 250px;
   }
-}
-
-@media screen and (max-width: 768px) {
   
   .landing-page-wrapper {
     height: 100vh;
